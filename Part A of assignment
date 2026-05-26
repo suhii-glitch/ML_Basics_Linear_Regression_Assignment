@@ -1,0 +1,138 @@
+# ============================================================
+# PART A – THEORETICAL QUESTIONS
+# ============================================================
+
+# Q1. What is Machine Learning? Explain the main types
+# of Machine Learning with examples.
+
+# Answer:
+# Machine Learning is a branch of Artificial Intelligence
+# where computers learn patterns from data and make decisions
+# or predictions without being explicitly programmed.
+
+# Main Types of Machine Learning:
+
+# 1. Supervised Learning
+# Uses labeled data where input and output are already known.
+# Example:
+# House Price Prediction
+
+# 2. Unsupervised Learning
+# Finds hidden patterns in unlabeled data.
+# Example:
+# Customer Segmentation
+
+# 3. Reinforcement Learning
+# A model learns through rewards and punishments.
+# Example:
+# Self-driving Cars and Game AI
+
+# ============================================================
+
+# Q2. What is Supervised Learning?
+# Explain the difference between Regression and Classification.
+
+# Answer:
+# Supervised Learning is a machine learning technique
+# where the model is trained using labeled data.
+
+# Regression:
+# Used to predict continuous numerical values.
+# Example:
+# Predicting house prices.
+
+# Classification:
+# Used to predict categories or classes.
+# Example:
+# Spam Email Detection.
+
+# Difference:
+# Regression outputs numbers,
+# while Classification outputs categories.
+
+# ============================================================
+
+# Q3. What is Linear Regression?
+# Write the Linear Regression equation and explain
+# intercept and coefficient.
+
+# Answer:
+# Linear Regression is a supervised learning algorithm
+# used to predict continuous values by finding a linear
+# relationship between independent and dependent variables.
+
+# Linear Regression Equation:
+
+# y = b0 + b1x1 + b2x2 + ... + bnxn
+
+# Where:
+# y  = dependent variable
+# b0 = intercept
+# b1,b2...bn = coefficients
+# x1,x2...xn = independent variables
+
+# Intercept:
+# The predicted value of y when all x values are zero.
+
+# Coefficient:
+# Represents how much the dependent variable changes
+# when one independent variable increases by one unit.
+
+# ============================================================
+
+# Q4. Explain the following evaluation metrics used
+# in Linear Regression.
+
+# Answer:
+
+# SSE (Sum of Squared Errors):
+# Sum of squared differences between actual and predicted values.
+
+# MSE (Mean Squared Error):
+# Average of squared errors.
+# Lower MSE indicates better model performance.
+
+# RMSE (Root Mean Squared Error):
+# Square root of MSE.
+# Represents prediction error in original units.
+
+# R² Score:
+# Measures how well the model explains variance in data.
+# Higher R² indicates better model fit.
+
+# Adjusted R²:
+# Modified version of R² that considers the number of features.
+# Prevents overestimating model performance.
+
+# ============================================================
+
+# Q5. Explain the Machine Learning workflow steps
+# from data collection to model evaluation.
+
+# Answer:
+
+# 1. Data Collection
+# Gather data from databases, APIs, files, or surveys.
+
+# 2. Data Cleaning
+# Handle missing values, duplicates, and incorrect data.
+
+# 3. Exploratory Data Analysis (EDA)
+# Analyze data patterns and relationships using statistics
+# and visualizations.
+
+# 4. Feature Selection
+# Select important variables for model building.
+
+# 5. Data Splitting
+# Split data into training and testing sets.
+
+# 6. Model Training
+# Train machine learning model using training data.
+
+# 7. Model Evaluation
+# Evaluate model performance using metrics like
+# MAE, MSE, RMSE, and R² Score.
+
+# 8. Prediction and Deployment
+# Use trained model for predictions and real-world applications.
